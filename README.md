@@ -5,7 +5,7 @@ We demonstrate the algorithm with an example of $5 \times 5$ symmetric matrices.
 
 ## Theory
 
-Let $A$ by an $N \times N$ symmetric matrix. Then by Sylvester's criterion, $A$ is positive definite ($A > 0$) if the leading principal minors are positive, $D_k(A) > 0$. Conversely, if we wish to assert that the eigenvalues of $A$ given by $\lambda_i$ are bounded such that $|\lambda_i| < c$ with $i = 1, \ddots, N$, then we need to prove that $A < c$ and $A > -c$ as defined above.
+Let $A$ by an $N \times N$ symmetric matrix. Then by Sylvester's criterion, $A$ is positive definite ($A > 0$) if the leading principal minors are positive, $D_k(A) > 0$. Conversely, if we wish to assert that the eigenvalues of $A$ given by $\lambda_i$ are bounded such that $|\lambda_i| < c$ with $i = 1, \ldots, N$, then we need to prove that $A < c$ and $A > -c$ as defined above.
 
 Then, if $D_k(A + cI) > 0$ and $D_k(cI - A) > 0$, it follows that $|\lambda_i| < c$. This criterion is more numerical robust, it is always analytical and it is faster to compute. 
 
