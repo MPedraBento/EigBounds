@@ -9,4 +9,4 @@ Let $A$ by an $N \times N$ symmetric matrix. Then by Sylvester's criterion, $A$ 
 
 Then, if $D_k(A + cI) > 0$ and $D_k(cI - A) > 0$, it follows that $|\lambda_i| < c$. This criterion is more numerical robust, it is always analytical and it is faster to compute. 
 
-A corollary of this statement is that |\mathrm{diag}(A)| < c is a necessary condition for $|\lambda_i| < c$. This allows to greatly reduce the amount of matrices generated prior to the computation of the leading principal minors.
+A corollary of this statement is that $|\mathrm{diag}(A)| < c$ is a necessary condition for $|\lambda_i| < c$. This allows to greatly reduce the amount of matrices generated prior to the computation of the leading principal minors.
